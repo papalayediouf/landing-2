@@ -1,0 +1,193 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .burger{
+    width: 5rem;
+ }
+ .cool{
+    font-weight: 500;
+    font-size: 20px;
+ }
+
+
+/* header */
+
+header{
+    background-image: url(img/img1-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.black{
+    background-color: rgb(1, 1, 1,0.7);
+    height: 100%;
+    padding-top: 10%;
+}
+
+.mexican{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    position: absolute;
+    right: 18%;
+}
+
+.TACO{
+    font-size: 248px;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    left: 10%;
+}
+@media screen and (max-width:730px) {
+    .TACO{
+        font-size: 115px;
+        left: 5%;
+        top: 200px;
+    }
+    
+    .mexican{
+        right: 0;
+        margin-left: 10%;
+    }
+}
+
+/* fffffffINNNN */
+
+/* The celebration */
+
+.img-1{
+    width: 100%;
+    height: 100%;
+}
+#celebration{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.centurie{
+    font-weight: 550;
+}
+.titre{
+    font-size: 60px;
+    font-style: italic;
+   
+}
+@media screen and (max-width:730px) {
+    .titre{
+        font-size: 40px;
+        margin-left: 3%;
+    }
+    #celebration{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* ffinnnnnnn */
+
+/* interieur */
+
+
+#interieur{
+    background-image: url(img/img3-1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 5%;
+
+}
+
+.titre-2{
+    font-size: 60px;
+    margin-left: 15%;
+}
+.text-size{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 15%;
+}
+.text-size-2{
+    color: #fff;
+    margin-left: 15%;
+    font-weight: 500;
+}
+@media screen and (max-width:730px) {
+    .titre-2{
+        margin: 2%;
+    }
+    .text-size{
+        margin: 2%;
+    }
+    .text-size-2{
+        margin: 2%;
+    }
+ 
+}
+
+/* ffffffiiiiinnnnn */
+
+/* table */
+
+#table{
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-right: 15%;
+}
+
+.td-size{
+    font-size: 28px;
+}
+@media screen and (max-width:730px) {
+    #table{
+        margin: 0;
+    }
+}
+
+/* ffffiiiiiiiiinnnnn */
+
+/* suscribe */
+
+#suscribe{
+    background-image: url(img/img4-1.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.text-subscribe{
+    margin-left: 15%;
+    font-size: 55px;
+    color: #fff;
+}
+.text-exclusive{
+    margin-left: 15%;
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+}
+
+/* FFFFFFFFFFFIIIIIIIINNNNN */
+
+/* TABLE-2 */
+
+.tablee {
+    width: 71%;
+    display: flex;
+}
+.tbody{
+    width: 100%;
+    margin: auto;
+}
+@media screen and (max-width:730px) {
+    .tablee{
+        width: 100%;
+    }
+}
